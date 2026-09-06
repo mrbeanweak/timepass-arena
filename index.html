@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Timepass Arena - discover movies and anime you are authorized to share." />
+  <title>Timepass Arena | Movies & Anime</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="header">
+    <a class="brand" href="#home" aria-label="Timepass Arena home">
+      <span class="brand-mark">▶</span>
+      <span>TIMEPASS <b>ARENA</b></span>
+    </a>
+
+    <nav class="nav">
+      <a href="#home">Home</a>
+      <a href="#movies">Movies</a>
+      <a href="#anime">Anime</a>
+      <a href="#about">About</a>
+    </nav>
+
+    <a class="telegram small" href="https://t.me/narutovssasuk" target="_blank" rel="noopener">
+      Join Telegram
+    </a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">MOVIES • ANIME • ENTERTAINMENT</span>
+        <h1>Your entertainment.<br><span>Your arena.</span></h1>
+        <p>
+          Discover movies and anime content shared by Timepass Arena.
+          Only upload or link content that you own or are authorized to distribute.
+        </p>
+        <div class="hero-actions">
+          <a class="btn primary" href="#movies">Browse Content</a>
+          <a class="btn secondary" href="https://t.me/narutovssasuk" target="_blank" rel="noopener">
+            ✈ Join Telegram
+          </a>
+        </div>
+      </div>
+      <div class="hero-glow"></div>
+    </section>
+
+    <section class="section" id="movies">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">EXPLORE</span>
+          <h2>Movies</h2>
+        </div>
+        <input id="movieSearch" class="search" type="search" placeholder="Search movies..." aria-label="Search movies" />
+      </div>
+      <div class="grid" id="movieGrid">
+        <article class="card" data-title="Sample Action Movie">
+          <div class="poster poster-1"><span>MOVIE</span></div>
+          <div class="card-info">
+            <h3>Sample Action Movie</h3>
+            <p>Movie • 2026</p>
+            <button class="watch" data-title="Sample Action Movie">View Details</button>
+          </div>
+        </article>
+        <article class="card" data-title="Sample Drama Film">
+          <div class="poster poster-2"><span>DRAMA</span></div>
+          <div class="card-info">
+            <h3>Sample Drama Film</h3>
+            <p>Movie • 2026</p>
+            <button class="watch" data-title="Sample Drama Film">View Details</button>
+          </div>
+        </article>
+        <article class="card" data-title="Sample Comedy Movie">
+          <div class="poster poster-3"><span>COMEDY</span></div>
+          <div class="card-info">
+            <h3>Sample Comedy Movie</h3>
+            <p>Movie • 2026</p>
+            <button class="watch" data-title="Sample Comedy Movie">View Details</button>
+          </div>
+        </article>
+        <article class="card" data-title="Sample Thriller">
+          <div class="poster poster-4"><span>THRILLER</span></div>
+          <div class="card-info">
+            <h3>Sample Thriller</h3>
+            <p>Movie • 2026</p>
+            <button class="watch" data-title="Sample Thriller">View Details</button>
+          </div>
+        </article>
+      </div>
+      <p class="empty" id="movieEmpty">No matching movies found.</p>
+    </section>
+
+    <section class="section" id="anime">
+      <div class="section-heading">
+        <div>
+          <span class="eyebrow">EXPLORE</span>
+          <h2>Anime</h2>
+        </div>
+        <input id="animeSearch" class="search" type="search" placeholder="Search anime..." aria-label="Search anime" />
+      </div>
+      <div class="grid" id="animeGrid">
+        <article class="card" data-title="Sample Anime Adventure">
+          <div class="poster poster-5"><span>ANIME</span></div>
+          <div class="card-info">
+            <h3>Sample Anime Adventure</h3>
+            <p>Anime • Season 1</p>
+            <button class="watch" data-title="Sample Anime Adventure">View Details</button>
+          </div>
+        </article>
+        <article class="card" data-title="Sample Fantasy Anime">
+          <div class="poster poster-6"><span>FANTASY</span></div>
+          <div class="card-info">
+            <h3>Sample Fantasy Anime</h3>
+            <p>Anime • Season 1</p>
+            <button class="watch" data-title="Sample Fantasy Anime">View Details</button>
+          </div>
+        </article>
+        <article class="card" data-title="Sample Hero Anime">
+          <div class="poster poster-7"><span>HERO</span></div>
+          <div class="card-info">
+            <h3>Sample Hero Anime</h3>
+            <p>Anime • Season 1</p>
+            <button class="watch" data-title="Sample Hero Anime">View Details</button>
+          </div>
+        </article>
+        <article class="card" data-title="Sample Mystery Anime">
+          <div class="poster poster-8"><span>MYSTERY</span></div>
+          <div class="card-info">
+            <h3>Sample Mystery Anime</h3>
+            <p>Anime • Season 1</p>
+            <button class="watch" data-title="Sample Mystery Anime">View Details</button>
+          </div>
+        </article>
+      </div>
+      <p class="empty" id="animeEmpty">No matching anime found.</p>
+    </section>
+
+    <section class="telegram-banner">
+      <div>
+        <span class="eyebrow">STAY CONNECTED</span>
+        <h2>Join the Timepass Arena community</h2>
+        <p>Get updates through our Telegram channel.</p>
+      </div>
+      <a class="btn primary" href="https://t.me/narutovssasuk" target="_blank" rel="noopener">✈ Join Telegram</a>
+    </section>
+
+    <section class="section about" id="about">
+      <span class="eyebrow">ABOUT</span>
+      <h2>Timepass Arena</h2>
+      <p>
+        A simple entertainment discovery website for authorized movies, videos and anime.
+        Replace the sample cards with your own licensed or original content.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Timepass Arena. Content must be shared only with appropriate rights or permission.</p>
+  </footer>
+
+  <div class="modal" id="modal" aria-hidden="true">
+    <div class="modal-box">
+      <button class="close" id="closeModal" aria-label="Close">×</button>
+      <span class="eyebrow">CONTENT</span>
+      <h2 id="modalTitle">Title</h2>
+      <p>This is a sample content card. Replace it with details and a player or link for content you are authorized to distribute.</p>
+      <a class="btn primary" href="https://t.me/narutovssasuk" target="_blank" rel="noopener">Get Updates on Telegram</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
